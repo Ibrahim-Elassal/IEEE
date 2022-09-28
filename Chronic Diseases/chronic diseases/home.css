@@ -1,0 +1,110 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #4ca1af;
+  --subscrib-color: #0da8b0;
+}
+.item :hover{
+  color: black
+}
+header h1 span{
+	font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color:white;
+}
+
+header h1 .large{
+  font-size: 100px ;
+  font-weight: 600;
+  letter-spacing: 70px;
+  display: block;
+}
+
+header h1 .small {
+  font-size: 20px ;
+  font-weight: 500;
+  letter-spacing: 25px;
+}
+ .btn {
+ 	margin-top:30px;
+	background-color:#4ca1af;
+	color:white;
+	border-radius:7px;
+	text-transform:capitalize;
+}
+h2{
+	text-transform:capitalize;
+}
+h2 span{
+	color:#4ca1af;
+}
+
+section {
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	margin-bottom:20px;
+}
+section div{
+	width:40%;
+	text-align:center;
+	margin-top:30px;
+	color:white;
+	background-color:#4ca1afcf;
+	padding:20px;
+	border-radius:5px;
+	box-shadow:8px 8px #4ca1afcf;
+}
+
+section div h3{
+	font-family:cursive;
+}
+
+section div img{
+	width:85%;
+	max-height:250px;
+	border-radius:10px;
+}
+
+section div .btn{
+	margin-top:10px;
+}
+
+/* start subscribe */
+.subscribe {
+  margin-top: 15vh  ;
+  background-color: var(--subscrib-color);
+}
+.subscribe input[type="text"] {
+border: none;
+border-bottom: 1px solid white ;
+}
+.subscribe input[type="text"]:focus {
+  outline: none
+}
+.subscribe ::placeholder {
+  color: white
+}
+.subscribe input[type="submit"] {
+   background-color: var(--dark-color);
+   color: var(--subscrib-color);
+   width: 100% ;
+
+}
+@media (max-width: 768px){
+  .subscribe input[type="text"] {
+    margin-bottom: 5px;
+  }
+}
+
+/* end subscribe */
+
+/* start footer */
+.footer {
+  background-color: var(--dark-color);
+}
+.footer .copyright > span {
+  color: var(--green-color);
+}
+/* end footer */

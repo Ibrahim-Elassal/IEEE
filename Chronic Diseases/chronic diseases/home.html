@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md  fixed-top">
+		<div class="navbar-light">
+			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#list">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse justify-content-center" id="list">
+			<ul class="navbar-nav">
+				<li class="item nav-item"><a href="home.html" class="nav-link">home</a></li>
+				<li class="item nav-item"><a href="#Chronic" class="item  nav-link">Chronic Diseases</a></li>
+				<li class="item nav-item dropdown">
+					<a href="#" class=" nav-link dropdown-toggle" data-bs-toggle="dropdown">measure</a>
+					<ul class="dropdown-menu">
+						<li class="nav-item"><a href="measure.html" class="nav-link">diabetes</a></li>
+						<li class="nav-item"><a href="measure_heart.html" class="nav-link">heart</a></li>
+					</ul>
+				</li>
+				<li class="item nav-item"><a href="contact_us.html" class="nav-link">contact us</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+		<h1>
+        <span class="large">health </span>
+        <span class="small">is the best wealth</span>
+      </h1>
+		<button class="btn btn-lg" onclick="location='https://www.cdc.gov/chronicdisease/about/index.htm'">Read More</button>
+	</header>
+
+	<h2 class="text-center pt-5 display-4" id="Chronic"><span>C</span>hronic <span>D</span>iseases</h2>
+	<section>
+		<div >
+			<h3>Diabetes</h3>
+			<img src="2.jpg">
+			<button class="btn btn-md btn-light" onclick="location='diabetes.html'">read more</button>
+		</div>
+		<div>
+			<h3>Heart</h3>
+			<img src="5.jpg">
+			<button class="btn btn-md btn-light"  onclick="location='heart.html'">read more</button>
+		</div>
+	</section>
+
+	<!-- start subscribe -->
+	<div class="subscribe text-center pt-5 pb-5 text-md-start" dir="ltr">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 col-lg-3 ">
+					<div class="fw-bold fs-4 mb-3">Subscribe to our Newsletter:</div>
+				</div>
+				<div class="col-md-6 col-lg-7">
+					<input class="w-100 text-light p-2 bg-transparent  fs-5" type="text" placeholder="Enter Email Address">
+				</div>
+				<div class="col-md-6 col-lg-2">
+					<input class="btn rounded-pill fw-bold fs-5" type="submit" value="Subscribe">
+				</div>
+			</div>
+		</div>
+	</div>
+ <!-- end subscribe -->
+
+<!-- start footer -->
+ <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start" dir="ltr">
+	 <div class="container">
+		 <div class="row">
+			 <div class="col-md-6 col-lg-4">
+				 <div class="links">
+						<h5 class="text-light">Links</h5>
+						<ul class="list-unstyled lh-lg">
+							<li>Home</li>
+							<li>Our Services</li>
+							<li>Portfolio</li>
+							<li>Testimonials</li>
+							<li>Support</li>
+							<li>Terms and Condition</li>
+						</ul>
+				 </div>
+			 </div>
+			 <div class="col-md-6 col-lg-4">
+				 <div class="links">
+						<h5 class="text-light">About Us</h5>
+						<ul class="list-unstyled lh-lg">
+							<li>Sign In</li>
+							<li>Register</li>
+							<li>About Us</li>
+							<li>Blog</li>
+							<li>Contact Us</li>
+						 </ul>
+				 </div>
+			 </div>
+			 <div class="col-md-6 col-lg-4">
+				 <div class="Contact">
+					 <h5 class="text-light">Contact Us</h5>
+					 <p class="lh-lg">Get in touch with us via mail phone.We are waiting for your call or message</p>
+					 <div class="copyright">
+						 Created By <span>IEEE</span>
+						 <div class="">Copyright &copy 2022 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <!-- end footer -->
+</body>
+</html>

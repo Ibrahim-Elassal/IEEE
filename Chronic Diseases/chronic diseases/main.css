@@ -1,0 +1,37 @@
+*{
+	padding:0;
+	margin:0;
+}
+nav, nav .dropdown-menu{
+	
+	background-color:#4ca1af;
+
+}
+nav ul li .nav-link{
+	color:white;
+	font-size:25px;
+	margin-left:20px;
+	text-transform:capitalize;
+}
+header{
+	background-image:linear-gradient(#4ca1af80,#4ca1af80), url('1.jpg');
+	background-size:cover;
+	background-position:top;
+	height:600px;
+	text-align:center;
+	padding-top:200px;
+}
+.btn {
+ 	margin-top:30px;
+	background-color:#4ca1af;
+	color:white;
+	border-radius:7px;
+	text-transform:capitalize;
+}
+
+h2{
+	text-transform:capitalize;
+}
+h2 span{
+	color:#4ca1af;
+}

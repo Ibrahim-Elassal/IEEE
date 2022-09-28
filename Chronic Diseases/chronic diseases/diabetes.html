@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>diabetes</title>
+	<meta  charset="utf-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="diabetes.css">
+    <style type="text/css">
+    	header{
+			background-image:linear-gradient(#4ca1af80,#4ca1af80), url('2.jpg');
+			background-position:bottom;
+		   }
+    </style>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md  fixed-top">
+		<div class="navbar-light">
+			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#list">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse justify-content-center" id="list">
+			<ul class="navbar-nav">
+				<li class="item nav-item"><a href="home.html" class="nav-link">home</a></li>
+				<li class="item nav-item dropdown">
+					<a href="" class="item nav-link dropdown-toggle" data-bs-toggle="dropdown">diabetes</a>
+					<ul class="dropdown-menu">
+						<li class="nav-item"><a href="diabetes.html" class="nav-link">home</a></li>
+						<li class="nav-item"><a href="#causes" class="nav-link">causes</a></li>
+						<li class="nav-item"><a href="#symptoms" class="nav-link">symptoms</a></li>
+						<li class="nav-item"><a href="#proper_food" class="nav-link">proper_food</a></li>
+						<li class="nav-item"><a href="#forbidden_foods" class="nav-link">forbidden_foods</a></li>
+					</ul>
+				</li>
+				<li class="item nav-item"><a href="measure.html" class="nav-link">measure</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+		<h1 class="text-light display-3">Diabetes</h1>
+		<button class="btn btn-lg" onclick="diabetesPage()">Read More</button>
+	</header>
+	<div class="diabetes" id="diabetes">
+		<h2 class="text-center pt-5 display-4"><span>D</span>iabetes</h2>
+		<p>diabetes is high levels of glucose in the blood. level isn't controlled, this will lead to serious complications , so the diabetic patient must monitor the level of suger in the blood continuously.</p>
+	</div>
+
+	<h2 class="text-center pt-5 display-4" id="causes"><span>c</span>auses <span>o</span>f <span>s</span>udden <span>D</span>iabetes </h2>
+
+	<section class="causes">
+
+		<div>
+			<span>1</span>
+			<h3>food quality</h3>
+			<p>
+				eating food that is n carbohydrates and sugars can lead to sudden rise in the level of glucose in the blood.
+			</p>
+		</div>
+
+		<div>
+			<span>2</span>
+			<h3>laziness and lack exercise</h3>
+			<p>
+				sedentary or lazy lifestyle leads to high blood sugar levels but hard and intense exercise can lead to physicals stress which can also lead to high blood sugar levels.
+			</p>
+		</div>
+		<div>
+			<span>3</span>
+			<h3>lack of sleep</h3>
+			<p>
+				lack of sleep or depriving it reduces the body's ability to deal with sugar and it's wordth knowing the creating conditions for good sleep is done by removing electronic devices and following a specific sleep regime thus regulating sugar in diabetic patient
+			</p>
+		</div>
+
+		<div>
+			<span>4</span>
+			<h3>smoking</h3>
+			<p>
+				smoking negativetly affects the regulation of blod sugar level and makes it difficult and ti maintain normal sugar levels. you must quit smoking.
+			</p>
+		</div>
+
+		<div>
+			<span>5</span>
+			<h3>exposure to psychological pressures</h3>
+			<p>
+				when you suffer from alot of life pressure. the body scretes alot of hormones including cortisol which in turn increases the body's concumption of energy sources and breaks them down sch as fats to produce glucose.
+			</p>
+		</div>
+
+		<div>
+			<span>6</span>
+			<h3>take some medicine</h3>
+			<p>
+				insulin leads to decrease in blood sugar but if you forget the dose or take the wrong does, this will affect the level of sugar and lead to sudden rise in its levels . among the medicines that can be one of the causes of sudden sugar : steriod medicines , diuretics, antidepressants
+			</p>
+		</div>
+	</section>
+
+
+
+	<section class="symptoms" id="symptoms">
+		<h2 class="text-center pt-5 display-4"><span>s</span>ymptoms <span>D</span>iabetes</h2>
+		<p>symptoms of diabetes vary , depending on how high your blood sugar is. some people , especially those with prediabetes or type 2 diabetes may not have symptoms, in type 1 diabetes symptoms tend to come on quickly and be more severe .<br> here are some of the signs and symptoms of type 1 and type 2 diabetes : <button id="display-list">......Read more</button></p>
+		<ul id="lists">
+			<li>extreme thirst</li>
+			<li>frequent urination</li>
+			<li>feeling very hungry</li>
+			<li>unexplained weight loss</li>
+			<li>fatigue</li>
+			<li>ease of arousal</li>
+			<li>blurres vision</li>
+			<li>sores are slow to heal</li>
+		</ul>
+	</section>
+
+	<h2 class="text-center pt-5 display-4" id="proper_food"><span>p</span>roper <span>f</span>ood <span>f</span>or <span>D</span>iabetes</h2>
+	<section class="proper_food" >
+		<img src="3.jpg">
+		<div class="content">
+			<div>
+				<button class="button">non-starchy vegetables</button>
+				<p>
+					it contain many essential vitamins, minerals and fiber which play an important role in controlling blood sugar, the most promient of these vegetables : artichoke, avocado, celery, option, onions.
+				</p>
+			</div>
+
+			<div>
+				<button class="button">fruits</button>
+				<p>
+					some fruits are suitable food for diabetics as they contain antioxidants. such as : bioflavonoids of the following two types : naringin and hesperidin . it also contains folic acid , and the most prominent of these fruits are : citrus fruits, berries, the strawberry, blue berries.
+				</p>
+			</div>
+
+			<div >
+				<button class="button">healthy fats</button>
+				<p>
+					healthy and nature fats help control diabetes and reduce the risk of heart disease and some foods rich in healthy fats contain easily digestible fiber. the most prominent sources are : virgin olive oil , avocade oil, brazil nuts, cashew nuts, hazelnut, eggs.
+
+				</p>
+			</div>
+
+			<div>
+				<button class="button">fatty fish</button>
+				<p>
+					fatty fish provides protection from the complications that may occur in  patients with high diabetes because it contains omega-3 acids. eicosapenraenoic acid, and docosahexaenoic acid, and helps to feel full and easily controls weight. fatty fish include : slamon fish , sardines, tune, saltes fish.
+				</p>
+			</div>
+
+			<div>
+				<button class="button">protein</button>
+				<p>
+					one of the foods that help control blood sugar an increase the feeling of satiety are proteins and foods rich in protein include : turkey, beans, tofu, cheese.
+				</p>
+			</div>
+		</div>
+
+	</section>
+
+	<h2 class="text-center pt-5 display-4" id="forbidden_foods"><span>f</span>orbidden <span>f</span>oods <span>f</span>or <span>D</span>iabetes</h2>
+
+	<section class="proper_food">
+		<div class="content" style="margin-left:30px;">
+			<div>
+				<button class="button">carbohydrates</button>
+				<p>
+					carbohydrates are important source of energy, but diabetics should be careful when choosing which carbohydrates to eaat throughout the day and make sure they are eating the right kind. among the carbohydrates to avoid are processes carbohydrates that contain few nutrients such as : bakery made of white flour, sweets with added sugar, white ggrains such as : white rice
+				</p>
+			</div>
+
+			<div>
+				<button class="button">protein</button>
+				<p>
+					protein helps the body buld and maintain tissues , but the body may break protein down into sugar, as these unhealthy protein foods lead to weight gain , heigh levels cholesterol and triglycerides in the body. and uncontrlled blod sugar levels. among the foods that are prohibited for diabetics and protein foods that should be avoided are : meats that contain a high precentage of fat  such as beef and lamb, fried a lot an chichen skin.
+				</p>
+			</div>
+
+			<div >
+				<button class="button">dairy</button>
+				<p>
+					Dairy products contain calcium, protein, and vitamins, but some dairy products contain saturated fats and are full-fat, which may raise cholesterol levels and increase insulin resistance.
+					Dairy products to avoid include: pure milk, Full fat and sweetened yoghurt.Products containing milk with added sugar
+				</p>
+			</div>
+
+			<div>
+				<button class="button">Fats and oils</button>
+				<p>
+					Fats provide essential fatty acids, such as omega-3, as they are an important part of a healthy and balanced diet, but saturated fats, partially hydrogenated oils and fried foods are prohibited for diabetics, as they increase blood sugar, because they take longer to digest and therefore Maintains high blood sugar for a long time, and leads to heart attacks and strokes. Fats to avoid include: butter, certain oils, such as palm oil, french fries, fast foods and ready meals.
+				</p>
+			</div>
+
+			<div>
+				<button class="button">Sugar</button>
+				<p>
+					Sugary foods are prohibited for diabetics, as they contain low carbohydrates and few nutritional values, which cause a sharp rise in blood glucose, and this increases the risk of obesity and heart disease.
+					Foods that are often high in sugar include:cakes, Soft drinks and energy drinks.Fruit juice,dried fruits,Artificial sweeteners that increase blood sugar,Honey.
+				</p>
+			</div>
+		</div>
+		<img src="4.jpg" style="margin-right:20px;  border-radius:20%;">
+
+	</section>
+<!-- start footer -->
+ <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start" dir="ltr">
+	 <div class="container">
+		 <div class="row">
+			 <div class="col-md-6 col-lg-4">
+				 <div class="links">
+						<h5 class="text-light">Links</h5>
+						<ul class="list-unstyled lh-lg">
+							<li>Home</li>
+							<li>Our Services</li>
+							<li>Portfolio</li>
+							<li>Testimonials</li>
+							<li>Support</li>
+							<li>Terms and Condition</li>
+						</ul>
+				 </div>
+			 </div>
+			 <div class="col-md-6 col-lg-4">
+				 <div class="links">
+						<h5 class="text-light">About Us</h5>
+						<ul class="list-unstyled lh-lg">
+							<li>Sign In</li>
+							<li>Register</li>
+							<li>About Us</li>
+							<li>Blog</li>
+							<li>Contact Us</li>
+						 </ul>
+				 </div>
+			 </div>
+			 <div class="col-md-6 col-lg-4">
+				 <div class="Contact">
+					 <h5 class="text-light">Contact Us</h5>
+					 <p class="lh-lg">Get in touch with us via mail phone.We are waiting for your call or message</p>
+					 <div class="copyright">
+						 Created By <span>IEEE</span>
+						 <div class="">Copyright &copy 2022 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <!-- end footer -->
+
+
+
+
+	<script type="text/javascript" src="diabetes.js"></script>
+</body>
+</html>

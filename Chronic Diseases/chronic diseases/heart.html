@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Heart Disease</title>
+	<meta  charset="utf-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="heart.css">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+	<!-- start navbar -->
+	<nav class="navbar navbar-expand-md  fixed-top">
+		<div class="navbar-light">
+			 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#list">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<section class="intro" dir="ltr">
+</section>
+		</div>
+		<div class="collapse navbar-collapse justify-content-center" id="list">
+			<ul class=" item navbar-nav">
+				<li class="item nav-item"><a href="home.html" class="nav-link">home</a></li>
+				<li class="item nav-item dropdown">
+					<a href="" class="item nav-link dropdown-toggle" data-bs-toggle="dropdown">Heart Disease</a>
+					<ul class="item dropdown-menu">
+						<li class=" nav-item"><a href="heart.html" class="nav-link">home</a></li>
+						<li class=" nav-item"><a href="#causes" class="nav-link">causes</a></li>
+						<li class=" nav-item"><a href="#symptoms" class="nav-link">symptoms</a></li>
+						<li class=" nav-item"><a href="#proper_food" class="nav-link">proper_food</a></li>
+						<li class=" nav-item"><a href="#forbidden_foods" class="nav-link">forbidden_foods</a></li>
+					</ul>
+				</li>
+				<li class="item nav-item"><a href="measure_heart.html" class="nav-link">measure</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- end navbar -->
+	<!-- section One -->
+	<header style="background-image:linear-gradient(#4ca1af80,#4ca1af80), url('heart.jpg');">
+		<h1 class="text-light display-3">Heart Disease</h1>
+		<button class="btn btn-lg" onclick="redirectExternalPage()">Read More </button>
+	</header>
+	<!-- section two -->
+	<div class="heart" id="heart">
+		<h2 class="text-center pt-5 display-4"><span>H</span>eart  <span>D</span>isease </h2>
+		<p>diabetes is high levels of glucose in the blood. level isn't controlled, this will lead to serious complications , so the diabetic patient must monitor the level of suger in the blood continuously.</p>
+	</div>
+	<!-- section three -->
+
+	<h2 class="text-center pt-5 display-4" id="causes"><span>c</span>auses <span>o</span>f <span>s</span>udden <span>H</span>eart  <span>D</span>isease </h2>
+
+	<section class="causes">
+
+		<div>
+			<span>1</span>
+			<h3>High blood pressure</h3>
+			<p>
+				If your blood pressure is high, your heart has to work harder than it should to circulate blood throughout your body. Over time, this extra exertion can make your heart muscle too stiff or too weak to properly pump blood.
+			</p>
+		</div>
+
+		<div>
+			<span>2</span>
+			<h3>Faulty heart valves.</h3>
+			<p>
+			The valves of the heart keep blood flowing in the proper direction. A damaged valve — due to a heart defect, coronary artery disease or heart infection — forces the heart to work harder, which can weaken it over time.
+			</p>
+		</div>
+		<div>
+			<span>3</span>
+			<h3>Damage to the heart muscle</h3>
+			<p>
+				Heart muscle damage can have many causes, including certain diseases, infection, heavy alcohol use, and the toxic effect of drugs, such as cocaine or some drugs used for chemotherapy. Genetic factors also can play a role.
+			</p>
+		</div>
+
+		<div>
+			<span>4</span>
+			<h3>arrhythmias</h3>
+			<p>
+Abnormal heart rhythms may cause your heart to beat too fast, creating extra work for your heart. A slow heartbeat also may lead to heart failure.			</p>
+		</div>
+
+		<div>
+			<span>5</span>
+			<h3>myocarditis</h3>
+			<p>
+ Myocarditis is most commonly caused by a virus, including the COVID-19 virus, and can lead to left-sided heart failure.
+			</p>
+		</div>
+
+		<div>
+			<span>6</span>
+			<h3>Diabetes</h3>
+			<p>
+ Having diabetes increases your risk of high blood pressure and coronary artery disease. Don't stop taking any medications on your own. Ask your doctor whether you should make changes.			</p>
+		</div>
+	</section>
+	<!-- section four 	-->
+	<section class="symptoms" id="symptoms">
+		<h2 class="text-center pt-5 display-4"><span>s</span>ymptoms <span>H</span>eart <span>D</span>isease</h2>
+		<p>Coronary artery disease is a common heart condition that affects the major blood vessels that supply the heart muscle. <br> &nbsp&nbsp Cholesterol deposits (plaques) in the heart arteries are usually the cause of coronary artery disease. The buildup of these <br> &nbsp&nbsp &nbsp 	 plaques is called atherosclerosis (ath-ur-o-skluh-ROE-sis). Atherosclerosis reduces blood flow to the heart and    other <br>parts ofthe body. It can lead to a heart attack, chest pain (angina) or stroke. <button id="display-list"> ......Read more </button></p>
+<!-- what this  -->
+		<ul id="lists">
+			<li>Chest Discomfort</li>
+			<li>Snoring</li>
+			<li>Sweating</li>
+			<li>Throat or Jaw Pain</li>
+			<li>You Feel Dizzy or Lightheaded</li>
+			<li>Pain that Spreads to the Arm</li>
+			<li>Nausea, Indigestion, Heartburn, or Stomach Pain</li>
+		</ul>
+	</section>
+<!-- section five -->
+	<h2 class="text-center pt-5 display-4" id="proper_food"><span>p</span>roper <span>f</span>ood <span>f</span>or  <span>H</span>eart <span>D</span>isease</h2>
+	<section class="proper_food" >
+		<img src="goodFood.webp" class="imgOne">
+		<div class="content">
+			<div>
+				<button class="button">Fresh Herbs</button>
+				<p>
+					When you add these to foods instead of salt and fat, you're making a heart-healthy choice. They add flavor without the bad stuff. Spices and other foods are delicious ways to eat heart-smart.
+				</p>
+			</div>
+
+			<div>
+				<button class="button">Olive Oil</button>
+				<p>
+         This oil is a healthy fat made from smashed olives. It's rich in heart-healthy antioxidants. They may protect your blood vessels. When olive oil replaces saturated fat (like butter), it can help lower cholesterol levels. Try it on salads and cooked veggies, or with bread.				</p>
+			</div>
+
+			<div >
+				<button class="button"> Foods Fortified With Sterols</button>
+				<p>
+					Some margarines, soy milks, almond milks, and orange juices have cholesterol-fighting sterols and stanols added. These plant extracts block your gut from soaking up cholesterol. They can lower LDL levels by 10% without messing with good cholesterol.
+				</p>
+			</div>
+
+			<div>
+				<button class="button">Flaxseed</button>
+				<p>
+This shiny, honey-colored seed has three things that are good for your heart: fiber, phytochemicals called lignans, and omega-3 fatty acids. <br>Tip: Grind flaxseed for the best nutrition. Add it to cereal, baked goods, yogurt, or mustard on a sandwich.				</p>
+			</div>
+
+			<div>
+				<button class="button">Fatty fish and fish oil</button>
+				<p>
+					Fatty fish like salmon, mackerel, sardines, and tuna are loaded with omega-3 fatty acids, which have been studied extensively for their heart-health benefits.
+					Omega-3 fatty acids from fatty fish may have a protective role in the risk of developing heart disease and slightly reduce the risk of CVD events and arrhythmias (18Trusted Source).
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- section six -->
+
+	<h2 class="text-center pt-5 display-4" id="forbidden_foods"><span>f</span>orbidden <span>f</span>oods <span>H</span>eart <span>D</span>isease</h2>
+
+	<section class="proper_food">
+		<div class="content" style="margin-left:30px;">
+			<div>
+				<button class="button">Sugar, Salt, Fat</button>
+				<p>
+				Eating too much beef, lamb, and pork may raise your odds for heart disease and diabetes. It may be because they’re high in saturated fat, which can boost cholesterol. More recent studies point to how gut bacteria process a part of the meat called L-carnitine. Limit your portions. Also, look for lean cuts like round, sirloin, and extra-lean ground beef.			</p>
+			</div>
+
+			<div>
+				<button class="button">Red Meat</button>
+				<p>
+					protein helps the body buld and maintain tissues , but the body may break protein down into sugar, as these unhealthy protein foods lead to weight gain , heigh levels cholesterol and triglycerides in the body. and uncontrlled blod sugar levels. among the foods that are prohibited for diabetics and protein foods that should be avoided are : meats that contain a high precentage of fat  such as beef and lamb, fried a lot an chichen skin.
+				</p>
+			</div>
+
+			<div >
+				<button class="button">Pizza</button>
+				<p>
+       Pizza can be healthy if you make it the right way, but most take-out pizza and frozen pies have staggering amounts of sodium, fat, and calories, all of which can raise your risk of a heart attack. When you order out, opt for a thin crust (whole wheat if possible), ask for less cheese, pile on the veggies, and skip the pepperoni or sausage, which are loaded with salt. For the most heart-healthy pizza, make it yourself.				</p>
+			</div>
+
+			<div>
+				<button class="button">Canned Soup</button>
+				<p>
+Soup can be an easy way to get more vegetables, protein, and fiber. But watch out for unhealthy ingredients. Canned soup often has lots of sodium, which can cause high blood pressure, heart attack, stroke, and heart failure. And any cream-based soup has unhealthy saturated fat. The healthiest way to enjoy soup is to make it from scratch with a low-sodium broth. If you do buy prepared soup, check the label for the least salt and fat.				</p>
+			</div>
+
+			<div>
+				<button class="button">Highly Processed Grains</button>
+				<p>
+					Highly processed grains, like white bread, white rice, white pasta, and many sugar-sweetened breakfast cereals, have been stripped of their fiber. That’s especially problematic for people with heart failure because it often co-exists with conditions like Type 2 diabetes and high cholesterol.
+		Instead of processed grains, seek out whole grains. Like fruits and vegetables, they’re nutrient-rich and excellent sources of fiber.
+				</p>
+			</div>
+		</div>
+		<img src="notgoodFoods.jpg" style="margin-right:20px;  border-radius:20%;">
+
+	</section>
+
+	<!-- start footer -->
+ <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start" dir="ltr">
+	 <div class="container">
+		 <div class="row">
+			 <div class="col-md-6 col-lg-4">
+				 <div class="links">
+						<h5 class="text-light">Links</h5>
+						<ul class="list-unstyled lh-lg">
+							<li>Home</li>
+							<li>Our Services</li>
+							<li>Portfolio</li>
+							<li>Testimonials</li>
+							<li>Support</li>
+							<li>Terms and Condition</li>
+						</ul>
+				 </div>
+			 </div>
+			 <div class="col-md-6 col-lg-4">
+				 <div class="links">
+						<h5 class="text-light">About Us</h5>
+						<ul class="list-unstyled lh-lg">
+							<li>Sign In</li>
+							<li>Register</li>
+							<li>About Us</li>
+							<li>Blog</li>
+							<li>Contact Us</li>
+						 </ul>
+				 </div>
+			 </div>
+			 <div class="col-md-6 col-lg-4">
+				 <div class="Contact">
+					 <h5 class="text-light">Contact Us</h5>
+					 <p class="lh-lg">Get in touch with us via mail phone.We are waiting for your call or message</p>
+					 <div class="copyright">
+						 Created By <span>IEEE</span>
+						 <div class="">Copyright &copy 2022 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+ <!-- end footer -->
+	<script type="text/javascript" src="heart.js"></script>
+</body>
+</html>

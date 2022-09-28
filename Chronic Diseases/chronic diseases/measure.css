@@ -1,0 +1,24 @@
+h2{
+	margin-top :50px;
+}
+.item :hover{
+  color: black
+}
+form{
+	width:500px;
+	margin:auto;
+	margin-top:20px;
+}
+form label{
+	font-size:23px;
+	text-transform:capitalize;
+	padding:10px 0;
+	font-family:cursive;
+}
+input{
+	display:block;
+	width:85%;
+	padding:10px;
+	border-radius:5px;
+	border:2px solid ;
+}

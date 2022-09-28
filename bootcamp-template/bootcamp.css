@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+ }
+:root {
+  --dark-color: #212529;
+  --white-color: #fff;
+  --blue-color: #0d6efd;
+  --yellow-color: #ffc107;
+}
+/* start navbar */
+.navbar {
+  background-color: var(--dark-color);
+  /* position: relative; */
+}
+.navbar .navbar-nav .nav-link {
+  color: rgb(255 255 255 / 55%);
+}
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--white-color);
+}
+.navbar .navbar-toggler {
+  color: rgb(255 255 255 / 55%);
+  border-color: rgb(255 255 255 / 55%);
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  color: white;
+  border-color: white;
+}
+/* end navbar */
+/* start develop */
+.develop {
+  background-color: var(--dark-color);
+}
+.develop .text span {
+  color: var(--yellow-color);
+}
+.develop .image {
+  max-width: 100%;
+}
+@media (min-width: 540px) and (max-width: 1199px){
+  .develop .image {
+    flex: 0 1 auto;
+  }
+}
+@media (max-width: 540px){
+  .develop .image {
+    display: none;
+  }
+}
+/* end develop */
+/* start subscribe */
+.subscribe {
+  background-color: var(--blue-color);
+}
+.input-group {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+/* end subscribe */
+/* start cards */
+.techs .card,
+.techs .card {
+  background-color: var(--dark-color);
+  border-radius: 3px;
+}
+.techs .card-two {
+  background-color: #6c757d;
+  border-radius: 3px
+}
+/* end cards */
+/* start react */
+.react {
+  background-color: var(--dark-color);
+}
+/* end react */
+
+/* start instructors */
+.instructors {
+  background-color: var(--blue-color);
+}
+/* end instructors */
+/* start contact */
+.contact .map-area iframe{
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .contact .map-area iframe {
+    height: 380px;
+  }
+}
+@media (max-width: 768px){
+  .contact .map-area iframe {
+    display: none;
+  }
+}
+/* end contact */
+/* start footer */
+.footer {
+  background-color: var(--dark-color);
+}
+/* end footer */

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>measure</title>
+	<meta  charset="utf-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="diabetes.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" type="text/css" href="measure.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md  fixed-top">
+		<div class="navbar-light">
+			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#list">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse justify-content-center" id="list">
+			<ul class="navbar-nav">
+				<li class="item nav-item"><a href="home.html" class="nav-link">home</a></li>
+				<li class="item nav-item dropdown">
+					<a href="" class="item nav-link dropdown-toggle" data-bs-toggle="dropdown">diabetes</a>
+					<ul class="dropdown-menu">
+						<li class="nav-item"><a href="heart.html" class="nav-link">home</a></li>
+						<li class="nav-item"><a href="heart.html #causes" class="nav-link">causes</a></li>
+						<li class="nav-item"><a href="heart.html #symptoms" class="nav-link">symptoms</a></li>
+						<li class="nav-item"><a href="heart.html #proper_food" class="nav-link">proper_food</a></li>
+						<li class="nav-item"><a href="heart.html #forbidden_foods" class="nav-link">forbidden_foods</a></li>
+					</ul>
+				</li>
+				<li class="item nav-item"><a href="measure_heart.html" class="nav-link">measure</a></li>
+				<li class="item nav-item"><a href="#" class="nav-link">settings</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<h2 class="text-center pt-5 display-4"><span>h</span>eart <span>r</span>ate <span>m</span>measurement</h2>
+
+	<form id="measure">
+		<div>
+			<label>for men or women :</label>
+			<input type="text" placeholder="enter your heart rate" id="menOrWomen">
+			<p></p>
+		</div>
+
+		<div>
+			<label>for children and newborns :</label>
+			<input type="text"  placeholder="enter your heart rate" id="children">
+			<p></p>
+		</div>
+	</form>
+	<button class="btn btn-lg" style="display:block; margin:auto; margin-top:20px" onclick="window.location = 'https://www.mayoclinic.org/ar/disease-conditions/prediabetes/diagnosis-treatment/drc-20355284'">read-more</button>
+
+	<script type="text/javascript">
+		var  menOrWomen = document.getElementById('menOrWomen'),
+		    children    = document.getElementById('children');
+		menOrWomen.onkeyup = function(){
+				if(this.value >= 120 && this.value <= 150 && this.value != false)
+					this.nextSibling.textContent = 'normal range';
+				else if(this.value == false)
+					this.nextSibling.textContent = '';
+
+				else
+					this.nextSibling.textContent = 'this isn\'t good';
+		}
+
+		children.onkeyup = function(){
+				if(this.value >= 40 && this.value <= 120 && this.value != false)
+					this.nextSibling.textContent = 'normal range';
+				else if(this.value == false)
+					this.nextSibling.textContent = '';
+
+				else
+					this.nextSibling.textContent = 'this isn\'t good';
+		}
+
+	</script>
+</body>
+</html>
